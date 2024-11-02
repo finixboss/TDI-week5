@@ -1,0 +1,9 @@
+# Ignore all CSV and PNG files
+*.csv
+*.png
+
+# Specifically include these files
+!baseline_model_results.csv
+!reports/baseline_model_report.md
+!reports/*_confusion_matrix.png  # Include all confusion matrix images
+
